@@ -1,9 +1,13 @@
-import React from 'react'
+const Employee = (props) => {
+	return (
+		<>
+			<h3>Employee {props.name}</h3>
+			<p>{props.role ? props.role : 'This Employee Has No Role'}</p>
+		</>
+	);
+};
 
-const Employee = () => {
-  return (
-    <div>Employee</div>
-  )
-}
 
-export default Employee
+export default Employee;
+
+
