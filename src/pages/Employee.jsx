@@ -19,7 +19,7 @@ function Employees() {
 			return employeeSekarang;
 		});
 
-		setEmployees(updateEmployee);
+		setEmployees(updateEmployee);	
 	}
 
 	function addEmployee(name, role, image) {

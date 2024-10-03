@@ -673,6 +673,10 @@ video {
   max-width: 80rem;
 }
 
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
 .max-w-\[350px\] {
   max-width: 350px;
 }
@@ -705,6 +709,12 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -876,6 +886,11 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-base {
